@@ -22,7 +22,7 @@
    
    pip install -r requirements.txt
 
-### Run With Docker
+## Run With Docker
 
 1. Build:
    
@@ -32,4 +32,8 @@
    
    docker run -p 5000:5000 receipt-processor
 
-3. API will be accessible at http://localhost:5000. If port is taken, try docker run -p 5001:5000 receipt-processor and access API at http://localhost:5001.
+3. API will be accessible at http://localhost:5000. If port is taken, try:
+
+   docker run -p 5001:5000 receipt-processor
+
+   and access API at http://localhost:5001.
